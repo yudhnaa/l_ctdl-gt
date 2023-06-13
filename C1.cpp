@@ -22,8 +22,6 @@ int main()
     while (menu(n,a) == 0)
     {
     }
-    
-    
     return 0;
 }
 
