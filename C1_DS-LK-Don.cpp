@@ -160,27 +160,27 @@ int main()
     Insert_last(x);
     cout << "Danh sach cac phan tu\n";
     Output();
-    // cout << "\nNhap phan tu can tim: ";
-    // cin >> x;
-    // Node *p = Search(x);
-    // if (p==NULL)
-    //     cout << "\n" << "Khong co trong danh sach";
-    // else 
-    //     cout << "\nPhan tu co trong danh sach\n";
-    // Insert_first();
-    // Output();
-    // Node *q = new Node;
-    // cout << "Nhap gia tri can them: ";
-    // cin >> q->info;
-    // q->link=NULL;
-    // cout << "Them sau phan tu q:";
-    // cin >> x;
-    // Ins_af_q(q,x);
-    // Output();
-    // Del_firs();
-    // Output();
-    // Del_last();
-    // Output();
+    cout << "\nNhap phan tu can tim: ";
+    cin >> x;
+    Node *p = Search(x);
+    if (p==NULL)
+        cout << "\n" << "Khong co trong danh sach";
+    else 
+        cout << "\nPhan tu co trong danh sach\n";
+    Insert_first();
+    Output();
+    Node *q = new Node;
+    cout << "Nhap gia tri can them: ";
+    cin >> q->info;
+    q->link=NULL;
+    cout << "Them sau phan tu q:";
+    cin >> x;
+    Ins_af_q(q,x);
+    Output();
+    Del_firs();
+    Output();
+    Del_last();
+    Output();
     Del_af_q(4);
     Output();
     return 0;
