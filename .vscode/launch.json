@@ -15,6 +15,7 @@
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": true,
+            // "console": "integratedTerminal",
             "MIMode": "lldb",
             "preLaunchTask": "C/C++: clang++ build active file"
         }
