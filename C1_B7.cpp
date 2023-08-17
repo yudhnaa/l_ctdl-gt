@@ -14,9 +14,8 @@ void init()
 // A function makes console stop
 void stopConsole()
 {
-    string stop = "";
     cin.ignore();
-    getline(cin, stop);
+    cin.get();
 }
 // Print all elements to console
 int printAllEle()
