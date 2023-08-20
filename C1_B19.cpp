@@ -62,7 +62,7 @@ void inputFromFile(ifstream &inputFile)
         student.Sex = temp == "true" ? true : false;
         insert(student);
     }
-    cout << "Nhap thanh cong.";
+    cout << "Success.";
     stopConsole();
 }
 // input from keyboard
